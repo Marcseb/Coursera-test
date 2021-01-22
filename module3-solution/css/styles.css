@@ -1,0 +1,101 @@
+.container-fluid h1 {
+  font-size: 10px;
+  text-align: center;
+}
+
+.btn{
+  margin-left: 15px
+}
+.glyphicon {
+  font-size: 1.1em;
+  margin-left: 5px
+}
+#header-nav div.row {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  background-color: lightgrey;
+  min-width: 710px;
+}
+.navbar-header a {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar-collapse {
+  position: relative;
+  overflow-x: hidden;
+}
+
+
+#logo-text {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#menu-items a {
+  text-align: center;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  color: black;
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+  font-size: 1.3em;
+}
+
+#button-right{
+  margin-right:10px;
+}
+#url{
+  background-color: white;
+  border-color: black;
+  color: blue;
+  border-width: 2px;
+  border-style: solid;
+  font-size: 80%;
+}
+
+.navbar-header div {
+  font-size: 1.8em;
+}
+.navbar-header a:hover  .navbar-header a:focus {
+  text-decoration: none;
+
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.menu-title p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin : 0px;
+  padding: 0px;
+  background-color: white;
+  border:0px;
+}
+
+.menu-details {
+  background-color: white;
+  margin : 0px;
+  padding: 0px;
+}
+
+.section {
+  background-color: lightgrey;
+  margin : 20px;
+  padding: 10px;
+}
+
+/********** display menu items on XS devices only **********/
+@media (min-width: 768px)  {
+#menu-items  {
+  visibility: hidden;
+}
